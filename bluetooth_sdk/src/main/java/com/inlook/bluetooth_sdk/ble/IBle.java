@@ -2,7 +2,7 @@
  * This XPG software is supplied to you by Xtreme Programming Group, Inc.
  * ("XPG") in consideration of your agreement to the following terms, and your
  * use, installation, modification or redistribution of this XPG software
- * constitutes acceptance of these terms.� If you do not agree with these terms,
+ * constitutes acceptance of these terms. If you do not agree with these terms,
  * please do not use, install, modify or redistribute this XPG software.
  * 
  * In consideration of your agreement to abide by the following terms, and
@@ -19,7 +19,7 @@
  * any patent rights that may be infringed by your derivative works or by other
  * works in which the XPG Software may be incorporated.
  * 
- * The XPG Software is provided by XPG on an "AS IS" basis.� XPG MAKES NO
+ * The XPG Software is provided by XPG on an "AS IS" basis. XPG MAKES NO
  * WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED
  * WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR
  * PURPOSE, REGARDING THE XPG SOFTWARE OR ITS USE AND OPERATION ALONE OR IN
