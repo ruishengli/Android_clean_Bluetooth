@@ -29,16 +29,14 @@ import java.util.UUID;
 @SuppressLint("NewApi")
 public class AndroidBle implements IBle, IBleRequestHandler {
 
-    protected static final String TAG = "AndroidBle";
+    private static final String TAG = "AndroidBle";
 
     private BleService mService;
     private BluetoothAdapter mBtAdapter;
     private Map<String, BluetoothGatt> mBluetoothGatts;
-
     private volatile boolean mOadBusy = false; // Write/read pending response
 
     /*private ScanCallback mtLeScanCallback = new ScanCallback() {
-
         @Override
         public void onScanResult(int callbackType, ScanResult result) {
             mService.bleDeviceFound(result.getDevice(), result.getRssi(),
@@ -71,7 +69,6 @@ public class AndroidBle implements IBle, IBleRequestHandler {
 
             //34，129
             if (status != BluetoothGatt.GATT_SUCCESS) {
-                //Log.logtoFile(TAG, "onConnectionStateChange ,status:" + status + ",newState:" + newState);
                 disconnect(address);
                 mService.bleGattDisConnected(address);
                 return;
@@ -137,7 +134,6 @@ public class AndroidBle implements IBle, IBleRequestHandler {
                     mService.bleGattDisConnected(address);
                     return;
                 }*/
-
                 mService.requestProcessed(address, RequestType.READ_CHARACTERISTIC,
                         characteristic.getUuid().toString(), false,null);
 
