@@ -1,1 +1,1 @@
-include ':app', ':bluetooth_sdk'
+include ':app', ':bluetooth_sdk', ':domain', ':data'
